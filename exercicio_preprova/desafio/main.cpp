@@ -12,15 +12,16 @@ int main(){
     matriz.criaVertice();
     matriz.criaVertice();
     matriz.criaVertice();
-    //matriz.criaVertice();
-    //matriz.criaVertice();
+    matriz.criaVertice();
+    matriz.criaVertice();
 
     matriz.criaAresta(1,2);
-    //matriz.criaAresta(1,5);
+    matriz.criaAresta(1,5);
     matriz.criaAresta(2,1);
     matriz.criaAresta(2,3);
     matriz.printMatriz();
-       
+    matriz.listaVertices(1, matriz.init);
+    matriz.verificaVizinhos(1,2,matriz.init);
 
     //matriz.verificaVizinhos(3,5,matriz.init);
     //matriz.listaVertices(4,5, matriz.init);

@@ -17,7 +17,7 @@ class Grafo{
         void criaVertice();
         void criaAresta(int vertice1, int vertice2);
         int verificaVizinhos(int vertice1, int vertice2, vector<vector<int>> matriz);
-        int listaVertices(int vertice, int colunas, vector<vector<int>> matriz);
+        int listaVertices(int vertice, vector<vector<int>> matriz);
         void printMatriz();
 };
 

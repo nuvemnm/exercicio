@@ -35,18 +35,18 @@ void Grafo :: criaAresta(int vertice1, int vertice2){
 
 int Grafo :: verificaVizinhos(int vertice1, int vertice2, vector<vector<int>> matriz){
     if(init[vertice1][vertice2] == 1){
-        cout<<"São vizinhos!!" << endl;
+        cout<<"Sao vizinhos!!" << endl;
     }else{
-        cout<<"Não sao vizinhos!!" << endl;
+        cout<<"Nao sao vizinhos!!" << endl;
     }
     return 0;
 }
 
 
-int Grafo :: listaVertices(int vertice, int colunas, vector<vector<int>> matriz){
+int Grafo :: listaVertices(int vertice, vector<vector<int>> matriz){
     for(int i = 0; i < colunas; i++){
         if(init[vertice-1][i] == 1){
-            cout<<"O vértice " << i+1 << " é vizinho do vértice " << vertice << endl;
+            cout<<"O vertice " << i+1 << " e vizinho do vertice " << vertice << endl;
         }
     }
     return 0;
